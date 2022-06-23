@@ -1,12 +1,11 @@
 //
 //  main.m
-//  FaceTime
+//  FTHistory
 //
 //  Created by Shady Elyaski on 6/22/22.
 //
 
 #import <UIKit/UIKit.h>
-#import "AppDelegate.h"
 #import "FTCallHistoryItem.h"
 #import "FTCall.h"
 #import "FTCallerID.h"
@@ -192,7 +191,7 @@ int main(int argc, char * argv[]) {
   @autoreleasepool {
     NSLog(@"%@", coalesceCall(test1Data()));
   /* OUTPUT:
-   2022-06-22 17:43:25.150013-0700 FaceTime[26256:4980085] (
+   2022-06-22 17:43:25.150013-0700 FTHistory[26256:4980085] (
        "4085551234 - June 01, 2022 - Connected (2)",
        "4085551234 - June 01, 2022 - Missed Call (3)",
        "4085551234 - June 01, 2022 - Connected",
@@ -201,7 +200,7 @@ int main(int argc, char * argv[]) {
    */
     NSLog(@"%@", coalesceCall(test2DataWithDifferentPhoneFormats()));
   /* OUTPUT:
-   2022-06-22 17:43:25.150013-0700 FaceTime[26256:4980085] (
+   2022-06-22 17:43:25.150013-0700 FTHistory[26256:4980085] (
        "4085551234 - June 01, 2022 - Connected (2)",
        "4085551234 - June 01, 2022 - Missed Call (3)",
        "4085551234 - June 01, 2022 - Connected",
@@ -210,18 +209,18 @@ int main(int argc, char * argv[]) {
    */
     NSLog(@"%@", coalesceCall(test3Empty()));
   /* OUTPUT:
-   2022-06-22 17:48:45.763611-0700 FaceTime[27788:4992116] (
+   2022-06-22 17:48:45.763611-0700 FTHistory[27788:4992116] (
    )
    */
     NSLog(@"%@", coalesceCall(test4OneItem()));
   /* OUTPUT:
-   2022-06-22 17:48:45.763780-0700 FaceTime[27788:4992116] (
+   2022-06-22 17:48:45.763780-0700 FTHistory[27788:4992116] (
        "4085551234 - June 01, 2022 - Connected"
    )
    */
     NSLog(@"%@", coalesceCall(test5DataWithCountryCodePhoneFormats()));
   /* OUTPUT:
-   2022-06-22 18:10:43.360070-0700 FaceTime[30906:5022935] (
+   2022-06-22 18:10:43.360070-0700 FTHistory[30906:5022935] (
        "14085551234 - June 01, 2022 - Connected (2)",
        "14085551234 - June 01, 2022 - Missed Call (2)",
        "24085551234 - June 01, 2022 - Missed Call",

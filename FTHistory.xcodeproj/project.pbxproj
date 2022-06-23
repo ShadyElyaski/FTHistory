@@ -7,16 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		96015C962863DC5B007309A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96015C952863DC5B007309A1 /* AppDelegate.m */; };
-		96015C992863DC5B007309A1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96015C982863DC5B007309A1 /* SceneDelegate.m */; };
-		96015C9C2863DC5B007309A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96015C9B2863DC5B007309A1 /* ViewController.m */; };
-		96015C9F2863DC5B007309A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96015C9D2863DC5B007309A1 /* Main.storyboard */; };
-		96015CA12863DC5C007309A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96015CA02863DC5C007309A1 /* Assets.xcassets */; };
-		96015CA42863DC5C007309A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96015CA22863DC5C007309A1 /* LaunchScreen.storyboard */; };
 		96015CA72863DC5C007309A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96015CA62863DC5C007309A1 /* main.m */; };
-		96015CB12863DC5C007309A1 /* FaceTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96015CB02863DC5C007309A1 /* FaceTimeTests.m */; };
-		96015CBB2863DC5C007309A1 /* FaceTimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96015CBA2863DC5C007309A1 /* FaceTimeUITests.m */; };
-		96015CBD2863DC5C007309A1 /* FaceTimeUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96015CBC2863DC5C007309A1 /* FaceTimeUITestsLaunchTests.m */; };
 		96015CCD2863DC86007309A1 /* FTCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 96015CCC2863DC86007309A1 /* FTCall.m */; };
 		96015CD02863DDC8007309A1 /* FTCallerID.m in Sources */ = {isa = PBXBuildFile; fileRef = 96015CCF2863DDC8007309A1 /* FTCallerID.m */; };
 		96015CD32863E1E2007309A1 /* FTCallHistoryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 96015CD22863E1E2007309A1 /* FTCallHistoryItem.m */; };
@@ -40,23 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		96015C912863DC5B007309A1 /* FaceTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		96015C942863DC5B007309A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		96015C952863DC5B007309A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		96015C972863DC5B007309A1 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		96015C982863DC5B007309A1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		96015C9A2863DC5B007309A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		96015C9B2863DC5B007309A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		96015C9E2863DC5B007309A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		96015CA02863DC5C007309A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		96015CA32863DC5C007309A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		96015CA52863DC5C007309A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96015C912863DC5B007309A1 /* FTHistory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTHistory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96015CA62863DC5C007309A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		96015CAC2863DC5C007309A1 /* FaceTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		96015CB02863DC5C007309A1 /* FaceTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceTimeTests.m; sourceTree = "<group>"; };
-		96015CB62863DC5C007309A1 /* FaceTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		96015CBA2863DC5C007309A1 /* FaceTimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceTimeUITests.m; sourceTree = "<group>"; };
-		96015CBC2863DC5C007309A1 /* FaceTimeUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceTimeUITestsLaunchTests.m; sourceTree = "<group>"; };
+		96015CAC2863DC5C007309A1 /* FTHistoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTHistoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96015CB62863DC5C007309A1 /* FTHistoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTHistoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96015CCB2863DC86007309A1 /* FTCall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTCall.h; sourceTree = "<group>"; };
 		96015CCC2863DC86007309A1 /* FTCall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTCall.m; sourceTree = "<group>"; };
 		96015CCE2863DDC8007309A1 /* FTCallerID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTCallerID.h; sourceTree = "<group>"; };
@@ -94,9 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				96015CCA2863DC70007309A1 /* Models */,
-				96015C932863DC5B007309A1 /* FaceTime */,
-				96015CAF2863DC5C007309A1 /* FaceTimeTests */,
-				96015CB92863DC5C007309A1 /* FaceTimeUITests */,
+				96015C932863DC5B007309A1 /* FTHistory */,
 				96015C922863DC5B007309A1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,46 +80,19 @@
 		96015C922863DC5B007309A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				96015C912863DC5B007309A1 /* FaceTime.app */,
-				96015CAC2863DC5C007309A1 /* FaceTimeTests.xctest */,
-				96015CB62863DC5C007309A1 /* FaceTimeUITests.xctest */,
+				96015C912863DC5B007309A1 /* FTHistory.app */,
+				96015CAC2863DC5C007309A1 /* FTHistoryTests.xctest */,
+				96015CB62863DC5C007309A1 /* FTHistoryUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		96015C932863DC5B007309A1 /* FaceTime */ = {
+		96015C932863DC5B007309A1 /* FTHistory */ = {
 			isa = PBXGroup;
 			children = (
-				96015C942863DC5B007309A1 /* AppDelegate.h */,
-				96015C952863DC5B007309A1 /* AppDelegate.m */,
-				96015C972863DC5B007309A1 /* SceneDelegate.h */,
-				96015C982863DC5B007309A1 /* SceneDelegate.m */,
-				96015C9A2863DC5B007309A1 /* ViewController.h */,
-				96015C9B2863DC5B007309A1 /* ViewController.m */,
-				96015C9D2863DC5B007309A1 /* Main.storyboard */,
-				96015CA02863DC5C007309A1 /* Assets.xcassets */,
-				96015CA22863DC5C007309A1 /* LaunchScreen.storyboard */,
-				96015CA52863DC5C007309A1 /* Info.plist */,
 				96015CA62863DC5C007309A1 /* main.m */,
 			);
-			path = FaceTime;
-			sourceTree = "<group>";
-		};
-		96015CAF2863DC5C007309A1 /* FaceTimeTests */ = {
-			isa = PBXGroup;
-			children = (
-				96015CB02863DC5C007309A1 /* FaceTimeTests.m */,
-			);
-			path = FaceTimeTests;
-			sourceTree = "<group>";
-		};
-		96015CB92863DC5C007309A1 /* FaceTimeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				96015CBA2863DC5C007309A1 /* FaceTimeUITests.m */,
-				96015CBC2863DC5C007309A1 /* FaceTimeUITestsLaunchTests.m */,
-			);
-			path = FaceTimeUITests;
+			path = FTHistory;
 			sourceTree = "<group>";
 		};
 		96015CCA2863DC70007309A1 /* Models */ = {
@@ -162,9 +111,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		96015C902863DC5B007309A1 /* FaceTime */ = {
+		96015C902863DC5B007309A1 /* FTHistory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96015CC02863DC5C007309A1 /* Build configuration list for PBXNativeTarget "FaceTime" */;
+			buildConfigurationList = 96015CC02863DC5C007309A1 /* Build configuration list for PBXNativeTarget "FTHistory" */;
 			buildPhases = (
 				96015C8D2863DC5B007309A1 /* Sources */,
 				96015C8E2863DC5B007309A1 /* Frameworks */,
@@ -174,14 +123,14 @@
 			);
 			dependencies = (
 			);
-			name = FaceTime;
+			name = FTHistory;
 			productName = FaceTime;
-			productReference = 96015C912863DC5B007309A1 /* FaceTime.app */;
+			productReference = 96015C912863DC5B007309A1 /* FTHistory.app */;
 			productType = "com.apple.product-type.application";
 		};
-		96015CAB2863DC5C007309A1 /* FaceTimeTests */ = {
+		96015CAB2863DC5C007309A1 /* FTHistoryTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96015CC32863DC5C007309A1 /* Build configuration list for PBXNativeTarget "FaceTimeTests" */;
+			buildConfigurationList = 96015CC32863DC5C007309A1 /* Build configuration list for PBXNativeTarget "FTHistoryTests" */;
 			buildPhases = (
 				96015CA82863DC5C007309A1 /* Sources */,
 				96015CA92863DC5C007309A1 /* Frameworks */,
@@ -192,14 +141,14 @@
 			dependencies = (
 				96015CAE2863DC5C007309A1 /* PBXTargetDependency */,
 			);
-			name = FaceTimeTests;
+			name = FTHistoryTests;
 			productName = FaceTimeTests;
-			productReference = 96015CAC2863DC5C007309A1 /* FaceTimeTests.xctest */;
+			productReference = 96015CAC2863DC5C007309A1 /* FTHistoryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		96015CB52863DC5C007309A1 /* FaceTimeUITests */ = {
+		96015CB52863DC5C007309A1 /* FTHistoryUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96015CC62863DC5C007309A1 /* Build configuration list for PBXNativeTarget "FaceTimeUITests" */;
+			buildConfigurationList = 96015CC62863DC5C007309A1 /* Build configuration list for PBXNativeTarget "FTHistoryUITests" */;
 			buildPhases = (
 				96015CB22863DC5C007309A1 /* Sources */,
 				96015CB32863DC5C007309A1 /* Frameworks */,
@@ -210,9 +159,9 @@
 			dependencies = (
 				96015CB82863DC5C007309A1 /* PBXTargetDependency */,
 			);
-			name = FaceTimeUITests;
+			name = FTHistoryUITests;
 			productName = FaceTimeUITests;
-			productReference = 96015CB62863DC5C007309A1 /* FaceTimeUITests.xctest */;
+			productReference = 96015CB62863DC5C007309A1 /* FTHistoryUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -237,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 96015C8C2863DC5B007309A1 /* Build configuration list for PBXProject "FaceTime" */;
+			buildConfigurationList = 96015C8C2863DC5B007309A1 /* Build configuration list for PBXProject "FTHistory" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -250,9 +199,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				96015C902863DC5B007309A1 /* FaceTime */,
-				96015CAB2863DC5C007309A1 /* FaceTimeTests */,
-				96015CB52863DC5C007309A1 /* FaceTimeUITests */,
+				96015C902863DC5B007309A1 /* FTHistory */,
+				96015CAB2863DC5C007309A1 /* FTHistoryTests */,
+				96015CB52863DC5C007309A1 /* FTHistoryUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,9 +211,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96015CA42863DC5C007309A1 /* LaunchScreen.storyboard in Resources */,
-				96015CA12863DC5C007309A1 /* Assets.xcassets in Resources */,
-				96015C9F2863DC5B007309A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,13 +235,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96015C9C2863DC5B007309A1 /* ViewController.m in Sources */,
 				96015CD32863E1E2007309A1 /* FTCallHistoryItem.m in Sources */,
-				96015C962863DC5B007309A1 /* AppDelegate.m in Sources */,
 				96015CA72863DC5C007309A1 /* main.m in Sources */,
 				96015CD02863DDC8007309A1 /* FTCallerID.m in Sources */,
 				96015CCD2863DC86007309A1 /* FTCall.m in Sources */,
-				96015C992863DC5B007309A1 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96015CB12863DC5C007309A1 /* FaceTimeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,8 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96015CBD2863DC5C007309A1 /* FaceTimeUITestsLaunchTests.m in Sources */,
-				96015CBB2863DC5C007309A1 /* FaceTimeUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,34 +261,15 @@
 /* Begin PBXTargetDependency section */
 		96015CAE2863DC5C007309A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 96015C902863DC5B007309A1 /* FaceTime */;
+			target = 96015C902863DC5B007309A1 /* FTHistory */;
 			targetProxy = 96015CAD2863DC5C007309A1 /* PBXContainerItemProxy */;
 		};
 		96015CB82863DC5C007309A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 96015C902863DC5B007309A1 /* FaceTime */;
+			target = 96015C902863DC5B007309A1 /* FTHistory */;
 			targetProxy = 96015CB72863DC5C007309A1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		96015C9D2863DC5B007309A1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				96015C9E2863DC5B007309A1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		96015CA22863DC5C007309A1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				96015CA32863DC5C007309A1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		96015CBE2863DC5C007309A1 /* Debug */ = {
@@ -469,7 +390,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FaceTime/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -495,7 +415,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FaceTime/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -526,7 +445,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceTime.app/FaceTime";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FTHistory.app/FTHistory";
 			};
 			name = Debug;
 		};
@@ -543,7 +462,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceTime.app/FaceTime";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FTHistory.app/FTHistory";
 			};
 			name = Release;
 		};
@@ -580,7 +499,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		96015C8C2863DC5B007309A1 /* Build configuration list for PBXProject "FaceTime" */ = {
+		96015C8C2863DC5B007309A1 /* Build configuration list for PBXProject "FTHistory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				96015CBE2863DC5C007309A1 /* Debug */,
@@ -589,7 +508,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96015CC02863DC5C007309A1 /* Build configuration list for PBXNativeTarget "FaceTime" */ = {
+		96015CC02863DC5C007309A1 /* Build configuration list for PBXNativeTarget "FTHistory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				96015CC12863DC5C007309A1 /* Debug */,
@@ -598,7 +517,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96015CC32863DC5C007309A1 /* Build configuration list for PBXNativeTarget "FaceTimeTests" */ = {
+		96015CC32863DC5C007309A1 /* Build configuration list for PBXNativeTarget "FTHistoryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				96015CC42863DC5C007309A1 /* Debug */,
@@ -607,7 +526,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96015CC62863DC5C007309A1 /* Build configuration list for PBXNativeTarget "FaceTimeUITests" */ = {
+		96015CC62863DC5C007309A1 /* Build configuration list for PBXNativeTarget "FTHistoryUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				96015CC72863DC5C007309A1 /* Debug */,
